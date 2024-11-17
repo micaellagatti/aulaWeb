@@ -1,0 +1,15 @@
+#cookies-msg {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	display: none; /* Esconde inicialmente */
+}
+
+#cookies-msg.mostrar {
+	display: block; /* Mostra a mensagem de cookies */
+}
